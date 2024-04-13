@@ -1,0 +1,24 @@
+alguns tipos de interfaces funcionais:
+supplies(Nada -> T):
+- Recebe como argumento nada
+- Retorna um tipo generico(Produto, Double, Integer, String...)
+
+consumer(T -> Nada):
+- Recebe um tipo generico como argumento(Produto, Double, Integer, String...)
+- Retorna nada
+
+unaryOperator(T -> T):
+- Recebe um tipo generico como argumento(Produto, Double, Integer, String...)
+- Retorna o mesmo tipo passado como argumento
+
+binaryOperator(T, T -> T):
+- Recebe 2 tipo generico do iguais como argumento(Produto, Double, Integer, String...)
+- Retorna o mesmo tipo passado como argumento
+
+Function:
+- Recebe um tipo generico como argumento(Produto, Double, Integer, String...)
+- Retorna um tipo generico
+
+Predicate:
+- Recebe um tipo generico como argumento(Produto, Double, Integer, String...)
+- Retorna um boolean

@@ -1,0 +1,11 @@
+Built Ops:
+- Construção/Inicio do algoritmo
+- Responsavel pela criação de uma strem
+
+Int. Ops:
+- è uma sequencia de operações que podem ser chamadas varias vezes
+- A operação intermediaria sempre irá retornar/geerar outra stream
+
+Terminal Ops:
+- Finalização da sequencia de operações, após ser chamada, o stream não poderá ser usado novamento
+- Produz um resultado final ou efeito colateral, podendo gerar algo ou apenas finalizar a operação

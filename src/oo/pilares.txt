@@ -1,0 +1,36 @@
+---------PILARES DO OO------------
+1- ENCAPSULAMENTO
+   - Envolve ocultar detalhes internos de uma classe, para que fique acessivel apenas a mesma, basicamente é uma barreira de proteção para evitar acessos indevidos
+   - O acesso e modificação é feito atraves dos metodos getters e setters, onde o getter retornar o valor e o setter atualiza o valor
+   - Atraves do encapsulamento podemos evitar a alteração de dados de forma acidental, temos uma melhor organização e permiti uma reutilização de codigo mais eficiente
+   - Modificadores: public, private e protected
+   - Public: esse modificador permiti qualquer classe acessar
+   - Private: esse modificador permiti apenas a propria classe acessa-lo
+   - Protected: esse modificador permiti o acesso apenas no mesmo pacote, ou seja, caso voce tente acessar um atributo em outro pacote, o atributo nao estara visivel
+
+2- HERANÇA
+   - ... È UM(A) ... (Civic È UM carro, Gato È UM mamifero, Maça È UMA fruta)
+   - Teremos uma classe "Generica", onde outras classes herdaram dessa classe
+   - Com a herança podemos compartilhar atributos e metodos entre classes
+   - Um exemplos: temos uma classe animal com metodos e atributos que todos os animais tem, como patas, tipo de alimentação, comer(), movimentar(),
+        Então criamos uma classe Pato que ira herdar a classe animal, com isso pato tera os atributos patas e tipo de alimentação, e o metodo comer e movimenta
+        mas, ele pode conter atributos e metodos que são exclusivos do animal pato.
+   - Basicamente as classes herdam os atributos/metodos da classe pai ou de todas as classes que estao acima.
+   - Para herdar de uma classe, utilizamos o "extends"
+
+3- Composição
+   - ... TEM UM(A) ... (Carro TEM UM motor, Carro TEM portas, Casa TEM UMA cozinha)
+   - A composição envolver a combinação de objetos para a criação de uma nova entidade
+   - Em vez de herdar, eles sao compostos por outros objetos
+   - Exemplo: digamos que temos o objeto Carro, esse carro sera composto por varias partes(motor, rodas e etc).
+   - Cada parte é um objeto independente
+
+4- POLIMORFISMO
+  - Significa "muitas formas", onde permiti que um objeto se comporte de maneiras diferentes
+  - Temos 2 tipos de polimofismo: estatico(sobrecarga) e o dinamico
+    - Sobrecarga: podemos ver a sobrecarga quando escrevemos um mesmo metodo de formas diferentes, pela sua assinatura. obterLoja(String a), obterLoja(int a)
+    - Sobreposição: esse tipo pode ocorrer apenas com a utilização de herança, nele iremos sobrepor o metodo original.
+
+5- ABTRAÇÂO
+  - Pegar o conceito da vida real, e abstrair para a aplicação, ou seja fazer uma simplicação, pegar apenas os aspectos que são relevantes para resolver o problema em questão
+  - Permiti criar um modelo simplicado de algo complexo, ocultando os detalhes que não são necessarios.

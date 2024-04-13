@@ -1,0 +1,28 @@
+-------------------Collections---------------------------
+1- SET:
+  - Não ordenado(por padrão)
+  - Não indexado
+  - Não aceita valores repetidos
+  - Pode ser Heterogêneo(varios tipos diferentes)
+  - Pode ser Homogêneo(Utiliza apenas 1 tipo para todos os valores)
+  - Pode ser ordenado
+
+2- LIST:
+  - Indexado
+  - Aceita valores repetidos
+  - Pode ser Heterogêneo(varios tipos diferentes)
+  - Pode ser Homogêneo(Utiliza apenas 1 tipo para todos os valores)
+  - É ordenado
+
+3- MAP:
+  - Chave/Valor
+  - Chave não aceita valor repetido
+  - Valor aceita valores repetidos
+
+4- QUEUE
+  - Implementa fila
+  - First In/First Out(FIFO)
+
+5- STACK
+  - Implementa pilha
+  - Last In/First Out(LIFO)
